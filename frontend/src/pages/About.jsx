@@ -62,7 +62,7 @@ class _About extends Component {
 }
 
 export const About = GoogleApiWrapper({
-    apiKey: ('AIzaSyDhKvv4-7KU99GWSI_XF-oY7Jn8mp2a94Q')
+    apiKey: ('API_KEY')
 })(_About)
 
 
