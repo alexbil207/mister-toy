@@ -1,0 +1,17 @@
+.container {
+  @include for-normal-layout {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+}
+
+.toys-container {
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  margin: 10px auto;
+
+  @include for-mobile-layout {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+
+    padding: 0 10px;
+  }
+}

@@ -1,0 +1,47 @@
+.header-container {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  padding: 5px 0;
+}
+
+.nav-btns {
+  @include for-mobile-layout {
+    flex-direction: column;
+    position: absolute;
+    top: 8%;
+    right: 0;
+    width: 50%;
+    background-color: $clr3;
+    transform: translateY(-200px);
+    transition: 0.5s;
+    z-index: 1;
+
+    &.show {
+      transform: translateY(0);
+    }
+    & a {
+      width: 100%;
+    }
+    > * {
+      width: 50%;
+      height: 50px;
+    }
+    > *:not(:last-child) {
+      border-bottom: 1px solid $clr2;
+    }
+  }
+}
+
+.menu-btn {
+  display: none;
+  color: $clr1;
+  border: none;
+  outline: none;
+  font-size: 2rem;
+  background-color: transparent;
+  cursor: pointer;
+  @include for-mobile-layout {
+    display: flex;
+    padding: 0 5px;
+  }
+}

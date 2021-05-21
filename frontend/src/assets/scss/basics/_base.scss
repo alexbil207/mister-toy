@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+h3 {
+  text-align: center;
+}
+i {
+  pointer-events: none;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  text-transform: none;
+  color: inherit;
+}
+
+.hidden {
+  display: none;
+}
+
+input,
+select,
+option {
+  outline: none;
+  background-color: transparent;
+  @include for-mobile-layout {
+    height: 30px;
+    width: 200px;
+  }
+}

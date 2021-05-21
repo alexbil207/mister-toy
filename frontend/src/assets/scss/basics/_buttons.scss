@@ -1,0 +1,13 @@
+.btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+.btn:active {
+  position: relative;
+  top: 2px;
+}

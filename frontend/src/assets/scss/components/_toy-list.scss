@@ -1,0 +1,61 @@
+.toy-card {
+  box-shadow: 0 0 7px $clr2;
+
+  & img {
+    width: 100%;
+  }
+
+  & .on-sale,
+  & .out-of-stock {
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  & .on-sale {
+    background-color: green;
+    color: #1b1b1b;
+  }
+
+  & .out-of-stock {
+    background-color: red;
+    color: #fff;
+  }
+  & .price {
+    color: #888;
+    margin: 5px 0;
+  }
+
+  & .toy-card-btns {
+    margin: 5px 0;
+    padding: 0 5px;
+    width: 100%;
+  }
+
+  @include for-mobile-layout {
+    & .toy-card-btns {
+      flex-direction: column;
+    }
+  }
+}
+
+.toy-details-container {
+  height: calc(100vh - 50px);
+}
+
+.details {
+  height: 300px;
+}
+
+.add-btn {
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 13px;
+  border-radius: 50%;
+  background-color: #3f51b5;
+  border: none;
+  outline: none;
+  position: fixed;
+  bottom: 5%;
+  right: 10%;
+}

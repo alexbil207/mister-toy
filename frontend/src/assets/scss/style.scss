@@ -1,0 +1,21 @@
+// Setup
+@import "setup/variables.scss";
+@import "setup/functions.scss";
+@import "setup/mixins.scss";
+@import "setup/typography.scss";
+
+// Basics
+@import "basics/helpers.scss";
+@import "basics/layout.scss";
+@import "basics/base.scss";
+@import "basics/buttons.scss";
+
+// Pages
+@import "pages/dashboard.scss";
+@import "pages/about.scss";
+
+//Components
+@import "components/header.scss";
+@import "components/filter.scss";
+@import "components/toy-list.scss";
+@import "components/edit.scss";

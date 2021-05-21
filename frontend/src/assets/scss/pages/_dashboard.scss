@@ -1,0 +1,15 @@
+.dashboard-container {
+  width: 100%;
+  margin: 10px 0;
+
+  &.bar-chart {
+    height: 40vh;
+    width: 100%;
+  }
+  @include for-mobile-layout {
+    .bar-chart {
+      height: 40vh;
+      width: 90%;
+    }
+  }
+}

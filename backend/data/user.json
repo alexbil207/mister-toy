@@ -1,0 +1,18 @@
+[
+  {
+    "_id": "u101",
+    "email": "alex207@gmail.com",
+    "fullName": "Alex Bil",
+    "password": "123456",
+    "createdAt": 1621179972322,
+    "isAdmin": true
+  },
+  {
+    "_id": "47XPuEKVUj",
+    "fullName": "moshe haim",
+    "email": "moshe123@walla.com",
+    "password": "123456",
+    "createdAt": 1621272127678,
+    "isAdmin": false
+  }
+]
